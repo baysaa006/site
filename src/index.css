@@ -60,7 +60,7 @@ h1{
     font-size: 2.5rem;
 }
 section{
-    margin-top: 8rem;
+    margin-top: 4rem;
 
 }
 section>h2, section>h5{
@@ -69,7 +69,7 @@ section>h2, section>h5{
 }
 h2{
     color:var(--color-primary);
-    margin-bottom: 3rem;
+   
 
 }
 
@@ -118,16 +118,38 @@ img{
         margin-top: 6rem;
 
     }
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .jj{
+        font-size: medium;
+    }
+    .gg{
+        font-size: medium;
+    }
+    
+    
 }
 /*................media query(small device device)...........*/
 
-@media screen  and (max-width:600px){
+@media screen and (max-width:600px){
     .container{
         width: var(--container-sm);
     }
     secion>h2{
-        margin-bottom: 2rem;
+        margin-bottom: 50px;
         
     }
+    .pro{
+        display: none;
+    }
+    .jj{
+        font-size: small;
+    }
+    .tom{
+        font-size: small;
+    }
 }
- 
+

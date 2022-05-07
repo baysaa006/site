@@ -1,0 +1,35 @@
+#experience{
+    padding-top: 2rem;
+    margin: 0;
+}
+.my{
+    height: 100%;
+}
+
+
+.ani {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 40%;
+    height: 70%;
+    border: 2px solid var(--color-primary);
+}
+.ani:hover{
+    background-image:linear-gradient(315deg, #2a5470 0%, #4c4177 60% );
+}
+.ani:hover h1 {
+    color: white;
+    transition: 0.5s;
+}
+.ani:hover h2 {
+    color: white;
+    transition: 0.5s;
+}
+.ani:hover p{
+    color:var(--color-primary)
+}
+
+
