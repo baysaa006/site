@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 5rem;
+}
+.logo, .tail{
+    width:25% ;
+}
+.content{
+    width:50%
+}
+.scroll_down{
+    right: 0;
+    bottom:11rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+
+}
+
+
+/*................media query(medium device)...........*/
+
+@media screen  and (max-width:1024px){
+    header{
+        height: 68vh;
+    }
+    .scroll_down {
+        display: none;
+    }
+}
+/*................media query(small device)...........*/
+@media screen  and (max-width:600px){
+    header{
+        height: 100vh;
+    }
+    .scroll_down {
+        display: none;
+    }
+    .header_socials{
+        display: none;
+    }
+}
