@@ -77,7 +77,7 @@ function Projects() {
               </p>
               <a
                 target="_blank"
-                href="https://card-ashy-eight.vercel.app/"
+                href="https://card1-nine.vercel.app/signup"
                 className="bg-indigo-500 p-2 text-black rounded-xl mt-2"
                 rel="noreferrer"
               >
